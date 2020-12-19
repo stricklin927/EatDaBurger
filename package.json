@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "name": "eatdaburger",
+  "description": "MSU - Homework 13: Eat Da Burger App (Node Express Handlebars)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stricklin927/EatDaBurger.git"
+  },
+  "author": "Alexandra Stricklin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stricklin927/EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/stricklin927/EatDaBurger#readme"
+}
