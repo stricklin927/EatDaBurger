@@ -1,17 +1,12 @@
 {
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "mysql": "^2.18.1"
-  },
   "name": "eatdaburger",
   "description": "MSU - Homework 13: Eat Da Burger App (Node Express Handlebars)",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/stricklin927/EatDaBurger/issues"
   },
-  "homepage": "https://github.com/stricklin927/EatDaBurger#readme"
+  "homepage": "https://github.com/stricklin927/EatDaBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
 }
