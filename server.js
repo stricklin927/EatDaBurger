@@ -1,3 +1,4 @@
+// requirements
 var express = require("express");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
@@ -16,3 +17,7 @@ app.use(bodyParser.json());
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+
+// routes to be added!!!!!
+var routes = require("./controllers/burgers_controller.js");
+app.use(routes);
