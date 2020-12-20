@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: #ffd747;
+  text-align: center;
+}
+
+#cheeseburger {
+  width: 15%;
+}
+
+#eat {
+  color: #ff0000;
+}
+
+#leftside {
+  background-color: #ffd747;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+#rightside {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
